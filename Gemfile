@@ -18,11 +18,11 @@ gem 'rack-cors', '~> 2.0'
 group :development, :test do  
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
-  gem "rspec-rails", "~> 4.0.1"
+  gem "rspec-rails", "~> 7.1"
 
   gem "factory_bot_rails"
 
-  gem "shoulda-matchers", "~> 4.0"
+  gem "shoulda-matchers", "~> 6.0"
 
   gem "brakeman", require: false
 
