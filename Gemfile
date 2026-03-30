@@ -12,6 +12,9 @@ gem 'foundation-rails', '~> 6.9'
 # Authentication
 gem "devise_token_auth", "~> 1.2.3"
 
+# Cors
+gem 'rack-cors', '~> 2.0'
+
 group :development, :test do  
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
