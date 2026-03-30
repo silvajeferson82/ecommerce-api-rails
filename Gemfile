@@ -26,6 +26,8 @@ group :development, :test do
 
   gem "brakeman", require: false
 
+  gem "faker"
+
   gem "rubocop-rails-omakase", require: false
 end
 

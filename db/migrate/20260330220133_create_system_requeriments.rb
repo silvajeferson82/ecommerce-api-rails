@@ -1,0 +1,14 @@
+class CreateSystemRequeriments < ActiveRecord::Migration[7.2]
+  def change
+    create_table :system_requeriments do |t|
+      t.string :name
+      t.string :operational_system
+      t.string :storage
+      t.string :processor
+      t.string :memory
+      t.string :video_board
+
+      t.timestamps
+    end
+  end
+end
