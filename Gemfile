@@ -7,6 +7,7 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
+gem 'foundation-rails', '~> 6.9'
 
 # Authentication
 gem "devise_token_auth", "~> 1.2.3"

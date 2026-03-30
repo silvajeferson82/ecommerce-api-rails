@@ -7,6 +7,8 @@ DeviseTokenAuth.setup do |config|
   # solicitação.
   config.change_headers_on_each_request = true
 
+  config.require_client_password_reset_token = true
+
   # Por padrão, os usuários precisarão reautenticar após 2 semanas. Essa configuração
   # determina quanto tempo os tokens permanecerão válidos após serem emitidos.
   config.token_lifespan = 1.weeks
