@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe "Home API", type: :request do
-  let(:user) { create(:user) }
+  let(:user) { create(:user, :admin) }
     it "Test Home" do
       get "/admin/v1/home", headers: auth_header(user)
 
