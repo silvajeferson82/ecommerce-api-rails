@@ -15,6 +15,9 @@ gem "devise_token_auth", "~> 1.2.3"
 # Cors
 gem 'rack-cors', '~> 2.0'
 
+# Rendering
+gem 'jbuilder', '~> 2.11'
+
 group :development, :test do  
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
